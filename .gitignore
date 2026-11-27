@@ -1,0 +1,14 @@
+# Android build outputs
+android/app/build/
+android/wear/build/
+android/.gradle/
+
+# Python
+server/venv/
+server/__pycache__/
+server/*.egg-info/
+server/build/
+server/dist/
+
+# macOS
+.DS_Store
