@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: deskpilot-server
+Version: 1.0.0
+Summary: Desktop server for the DeskPilot Android remote (Windows, macOS, Linux)
+Requires-Python: >=3.9
+Requires-Dist: cryptography>=41
+Requires-Dist: pynput>=1.7.6
+Requires-Dist: psutil>=5.9
+Requires-Dist: Pillow>=10
+Requires-Dist: pycaw>=20230407; sys_platform == "win32"
+Requires-Dist: comtypes>=1.2; sys_platform == "win32"

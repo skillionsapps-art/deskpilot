@@ -1,0 +1,237 @@
+{
+ "id": "powerpoint_advanced",
+ "name": "PowerPoint Advanced",
+ "category": "Presentations",
+ "icon": "slides",
+ "platforms": [
+  "win",
+  "mac"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "prev",
+     "text": "Previous",
+     "action": "prev"
+    },
+    {
+     "type": "button",
+     "icon": "next",
+     "text": "Next",
+     "action": "next",
+     "style": "primary",
+     "weight": 1.6
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "play",
+     "text": "Start",
+     "action": "start"
+    },
+    {
+     "type": "button",
+     "icon": "play",
+     "text": "From current",
+     "action": "start_current"
+    },
+    {
+     "type": "button",
+     "icon": "stop",
+     "text": "End",
+     "action": "end"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "black",
+     "text": "Black",
+     "action": "black"
+    },
+    {
+     "type": "button",
+     "icon": "white",
+     "text": "White",
+     "action": "white"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "action": "goto",
+   "hint": "Go to slide #",
+   "text": "Go",
+   "number": true
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "laser",
+     "text": "Laser",
+     "action": "laser"
+    },
+    {
+     "type": "button",
+     "icon": "pen",
+     "text": "Pen",
+     "action": "pen"
+    },
+    {
+     "type": "button",
+     "icon": "delete",
+     "text": "Erase ink",
+     "action": "erase"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "zoom_in",
+     "text": "Zoom +",
+     "action": "zoom_in"
+    },
+    {
+     "type": "button",
+     "icon": "zoom_out",
+     "text": "Zoom -",
+     "action": "zoom_out"
+    },
+    {
+     "type": "button",
+     "icon": "mouse",
+     "text": "Arrow",
+     "action": "arrow"
+    }
+   ]
+  },
+  {
+   "type": "touchpad"
+  }
+ ],
+ "actions": {
+  "next": [
+   {
+    "key": "right"
+   }
+  ],
+  "prev": [
+   {
+    "key": "left"
+   }
+  ],
+  "start": {
+   "do": [
+    {
+     "key": "f5"
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "enter"
+     ]
+    }
+   ]
+  },
+  "start_current": {
+   "do": [
+    {
+     "keys": [
+      "shift",
+      "f5"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "enter"
+     ]
+    }
+   ]
+  },
+  "end": [
+   {
+    "key": "esc"
+   }
+  ],
+  "black": [
+   {
+    "key": "b"
+   }
+  ],
+  "white": [
+   {
+    "key": "w"
+   }
+  ],
+  "goto": [
+   {
+    "type": "{value}"
+   },
+   {
+    "key": "enter"
+   }
+  ],
+  "laser": [
+   {
+    "keys": [
+     "ctrl",
+     "l"
+    ]
+   }
+  ],
+  "pen": [
+   {
+    "keys": [
+     "ctrl",
+     "p"
+    ]
+   }
+  ],
+  "erase": [
+   {
+    "key": "e"
+   }
+  ],
+  "arrow": [
+   {
+    "keys": [
+     "ctrl",
+     "a"
+    ]
+   }
+  ],
+  "zoom_in": [
+   {
+    "key": "plus"
+   }
+  ],
+  "zoom_out": [
+   {
+    "key": "minus"
+   }
+  ]
+ }
+}

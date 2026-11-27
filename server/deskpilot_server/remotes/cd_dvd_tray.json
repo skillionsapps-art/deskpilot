@@ -1,0 +1,33 @@
+{
+ "id": "cd_dvd_tray",
+ "name": "CD/DVD Tray",
+ "category": "System",
+ "icon": "eject",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "eject",
+     "text": "Eject tray",
+     "action": "eject"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "eject": [
+   {
+    "builtin": "eject"
+   }
+  ]
+ }
+}

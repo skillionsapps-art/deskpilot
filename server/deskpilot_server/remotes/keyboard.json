@@ -1,0 +1,20 @@
+{
+ "id": "keyboard",
+ "name": "Keyboard",
+ "category": "Essentials",
+ "icon": "keyboard",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Type in any language your phone keyboard supports, plus special keys",
+ "layout": [
+  {
+   "type": "keyboard",
+   "fill": true
+  }
+ ],
+ "actions": {}
+}

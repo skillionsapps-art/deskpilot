@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Download DeskPilot Server – control your PC from your phone</title>
+<meta name="description" content="Download DeskPilot Server for Windows, macOS, Linux and Raspberry Pi, then control your computer from the DeskPilot Android app.">
+<style>
+/* ---- edit these two lines when you publish ---- */
+:root{--brand:#2F6BFF;--brand-d:#1C3FAA;--ink:#141824;--mut:#5B6480;--line:#E2E6EF;--bg:#fff;--soft:#F4F6FB}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,"Segoe UI",Roboto,system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--brand)}
+.hero{background:linear-gradient(120deg,#0B1020,var(--brand-d) 60%,var(--brand));color:#fff;padding:56px 24px 72px;text-align:center}
+.hero h1{font-size:clamp(30px,5vw,46px);margin:0 0 10px;letter-spacing:-.02em}.hero p{margin:0;opacity:.85;font-size:18px}
+.logo{width:64px;height:64px;border-radius:16px;margin:0 auto 18px;background:linear-gradient(145deg,#4C82FF,#2F6BFF,#1B44C8);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+main{max-width:880px;margin:-40px auto 60px;padding:0 20px}
+.step{background:#fff;border-radius:22px;padding:34px 36px;box-shadow:0 6px 30px rgba(20,30,60,.08);margin-bottom:20px}
+.step h2{display:flex;align-items:center;gap:16px;font-size:clamp(22px,3.4vw,30px);font-weight:500;margin:0 0 24px}
+.num{width:44px;height:44px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:20px;font-weight:700;flex:none}
+.tabs{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.tab{display:flex;align-items:center;gap:10px;padding:13px 24px;border-radius:999px;border:1px solid var(--line);background:#fff;font:inherit;font-size:17px;color:var(--ink);cursor:pointer}
+.tab svg{width:20px;height:20px}.tab.on{background:var(--brand);border-color:var(--brand);color:#fff;font-weight:600}
+.dl{display:inline-flex;align-items:center;gap:22px;background:var(--brand);color:#fff;text-decoration:none;padding:20px 32px 20px 28px;border-radius:14px;box-shadow:0 10px 24px rgba(47,107,255,.3);min-width:min(460px,100%)}
+.dl:hover{background:var(--brand-d)}.dl svg{width:30px;height:30px;flex:none}.dl b{display:block;font-size:22px}.dl small{opacity:.85;font-size:14px}
+.btns{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.alt{margin-top:16px;display:flex;gap:22px;flex-wrap:wrap}.alt a{font-size:16px;text-decoration:underline dotted;text-underline-offset:4px}
+.note{margin-top:22px;background:var(--soft);border-radius:14px;padding:16px 18px;font-size:15px;line-height:1.55;color:#2C3550}
+code{background:#E9EDF7;border-radius:6px;padding:2px 7px;font-size:14px}
+pre{background:#0F1424;color:#DDE5FF;border-radius:12px;padding:14px 16px;overflow:auto;font-size:14px;margin:10px 0 0}
+.play{display:inline-flex;align-items:center;gap:14px;background:#000;color:#fff;text-decoration:none;padding:12px 22px;border-radius:12px}
+.play b{display:block;font-size:20px}.play small{font-size:12px;opacity:.8}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid div{background:var(--soft);border-radius:14px;padding:16px;font-size:15px;line-height:1.5}
+.grid b{display:block;color:var(--brand);margin-bottom:4px}
+footer{text-align:center;color:var(--mut);font-size:14px;padding-bottom:40px}
+@media(max-width:640px){.step{padding:24px 20px}.grid{grid-template-columns:1fr}.dl{padding:18px 20px}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="logo"><svg width="38" height="38" viewBox="0 0 24 24"><path fill="#fff" d="M15,9H9c-.55,0-1,.45-1,1v12c0,.55.45,1,1,1h6c.55,0,1-.45,1-1V10c0-.55-.45-1-1-1zM12,15c-1.1,0-2-.9-2-2s.9-2,2-2,2,.9,2,2-.9,2-2,2zM7.05,6.05l1.41,1.41C9.37,6.56,10.62,6,12,6s2.63.56,3.54,1.46l1.41-1.41C15.68,4.78,13.93,4,12,4S8.32,4.78,7.05,6.05zM12,0C8.96,0,6.21,1.23,4.22,3.22l1.41,1.41C7.26,3.01,9.51,2,12,2s4.74,1.01,6.36,2.64l1.41-1.41C17.79,1.23,15.04,0,12,0z"/></svg></div>
+  <h1>Control your computer from your phone</h1>
+  <p>Install DeskPilot Server, get the app, and you're ready in two minutes.</p>
+</section>
+
+<main>
+  <section class="step">
+    <h2><span class="num">1</span>Install the server on your computer</h2>
+    <div class="tabs" role="tablist">
+      <button class="tab" data-os="windows"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 5.5 10 4.5v7H3zm8-1.2L21 3v8.5H11zM3 12.5h7v7l-7-1zm8 0h10V21l-10-1.4z"/></svg>Windows</button>
+      <button class="tab" data-os="mac"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.9-.9-3.1-.8c-1.6 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.4-1-2.4-3.7zM14.1 5.6c.6-.8 1.1-1.9 1-3-1 0-2.1.6-2.8 1.4-.6.7-1.1 1.8-1 2.9 1.1.1 2.1-.5 2.8-1.3z"/></svg>macOS</button>
+      <button class="tab" data-os="linux"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 3c-2.2 0-3.4 1.8-3.4 4.2 0 1.4-.6 2.3-1.5 3.6C6 12.4 5 14.3 5.6 16.4c.4 1.4 1.6 2.3 2.4 2.6M12 3c2.2 0 3.4 1.8 3.4 4.2 0 1.4.6 2.3 1.5 3.6 1.1 1.6 2.1 3.5 1.5 5.6-.4 1.4-1.6 2.3-2.4 2.6M8 19c.8 1.4 2.2 2 4 2s3.2-.6 4-2M10.4 7.5h.01M13.6 7.5h.01M10.5 9.6c.9.6 2.1.6 3 0"/></svg>Linux</button>
+      <button class="tab" data-os="pi"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>Raspberry Pi</button>
+    </div>
+    <div id="panel"></div>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">2</span>Get the app on your Android phone</h2>
+    <a class="play" id="playlink" href="#" target="_blank" rel="noopener">
+      <svg width="30" height="30" viewBox="0 0 24 24"><path fill="#34A853" d="M3.6 2.3 13.5 12l-9.9 9.7c-.4-.2-.6-.7-.6-1.2V3.5c0-.5.2-1 .6-1.2z"/><path fill="#FBBC04" d="m17 8.5-3.5 3.5 3.5 3.5 4-2.3c.9-.5.9-1.9 0-2.4z"/><path fill="#4285F4" d="M3.6 2.3c.3-.2.8-.2 1.2 0L17 8.5 13.5 12z"/><path fill="#EA4335" d="M13.5 12 17 15.5 4.8 21.7c-.4.2-.9.2-1.2 0z"/></svg>
+      <span><small>GET IT ON</small><b>Google Play</b></span></a>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">3</span>Connect</h2>
+    <div class="grid">
+      <div><b>Same Wi-Fi</b>Connect your phone and computer to the same network.</div>
+      <div><b>Choose a password</b>The server opens its settings page the first time it runs. Set a password there.</div>
+      <div><b>Tap your computer</b>It appears in the app automatically. Enter the password and start controlling.</div>
+    </div>
+  </section>
+</main>
+<footer>DeskPilot · <span id="ver"></span> · <a href="#" id="allrel">All downloads &amp; release notes</a></footer>
+
+<script>
+/* ===== Set these before publishing ===== */
+const REPO = "skillions/deskpilot";   // GitHub "owner/repo" that holds the Releases
+const VERSION = "1.0.0";
+const PLAY_URL = "https://play.google.com/store/apps/details?id=com.skillions.deskpilot";
+/* ====================================== */
+const DL = f => `https://github.com/${REPO}/releases/latest/download/${f}`;
+const ICON_DL = '<svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M4 17v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2"/></svg>';
+const btn = (file, title, sub) => `<a class="dl" href="${DL(file)}">${ICON_DL}<span><b>${title}</b><small>${sub}</small></span></a>`;
+
+const PANELS = {
+  windows: `<div class="btns">${btn("DeskPilotServer-Setup-Windows-x64.exe","Download for Windows",`Version ${VERSION} · Windows 10 or newer · 64-bit`)}</div>
+    <div class="alt"><a href="${DL("DeskPilotServer-Windows-x64-portable.zip")}">Portable version (zip, no installer)</a></div>
+    <div class="note">Run the installer. It adds DeskPilot to the Start menu, allows it through Windows Firewall and can start it when you log in.
+    If Windows SmartScreen appears, click <b>More info → Run anyway</b>.</div>`,
+  mac: `<div class="btns">${btn("DeskPilotServer-macOS-AppleSilicon.dmg","Download for Mac – Apple chip",`Version ${VERSION} · M1, M2, M3, M4 · macOS 11+`)}
+    ${btn("DeskPilotServer-macOS-Intel.dmg","Download for Mac – Intel chip",`Version ${VERSION} · macOS 11+`)}</div>
+    <div class="note">Not sure? Apple menu → <b>About This Mac</b> → "Chip" says Apple M… or Intel.<br>
+    Open the DMG, drag DeskPilot Server to Applications and open it. Then allow it under <b>System Settings → Privacy &amp; Security → Accessibility</b> so it can move the mouse and type.</div>`,
+  linux: `<div class="btns">${btn("deskpilot-server-linux-x64.deb","Download for Ubuntu / Debian",`Version ${VERSION} · .deb · 64-bit (x86-64)`)}</div>
+    <div class="alt"><a href="${DL("DeskPilotServer-Linux-x64.tar.gz")}">Portable version (tar.gz, any distro)</a></div>
+    <div class="note">Install by double-clicking the .deb, or in a terminal:
+    <pre>sudo apt install ./deskpilot-server-linux-x64.deb
+deskpilot-server</pre>
+    Mouse and keyboard control need an X11 session. On Ubuntu, pick <b>"Ubuntu on Xorg"</b> on the login screen.</div>`,
+  pi: `<div class="btns">${btn("deskpilot-server-linux-arm64.deb","Download for Raspberry Pi",`Version ${VERSION} · Raspberry Pi OS 64-bit · Pi 3/4/5`)}</div>
+    <div class="alt"><a href="${DL("DeskPilotServer-Linux-arm64.tar.gz")}">Portable version (tar.gz)</a></div>
+    <div class="note">Install and run in the background:
+    <pre>wget ${DL("deskpilot-server-linux-arm64.deb")}
+sudo apt install ./deskpilot-server-linux-arm64.deb
+deskpilot-server --headless --password YOUR-PASSWORD   # once, to save the password (Ctrl+C)
+systemctl --user enable --now deskpilot-server</pre>
+    Raspberry Pi OS uses Wayland by default. For mouse and keyboard control switch to X11: <code>sudo raspi-config</code> → Advanced Options → Wayland → X11.</div>`,
+};
+
+function detect() {
+  const ua = navigator.userAgent;
+  if (/Windows/i.test(ua)) return "windows";
+  if (/Macintosh|Mac OS X/i.test(ua)) return "mac";
+  if (/aarch64|armv7|armv8|Raspbian/i.test(ua)) return "pi";
+  if (/Linux|X11/i.test(ua) && !/Android/i.test(ua)) return "linux";
+  return "windows";
+}
+function show(os) {
+  document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t.dataset.os === os));
+  document.getElementById("panel").innerHTML = PANELS[os];
+  history.replaceState(null, "", "#" + os);
+}
+document.querySelectorAll(".tab").forEach(t => t.onclick = () => show(t.dataset.os));
+document.getElementById("playlink").href = PLAY_URL;
+document.getElementById("ver").textContent = "Server " + VERSION;
+document.getElementById("allrel").href = `https://github.com/${REPO}/releases`;
+show(PANELS[location.hash.slice(1)] ? location.hash.slice(1) : detect());
+</script>
+</body>
+</html>

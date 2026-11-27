@@ -1,0 +1,27 @@
+{
+ "id": "performance",
+ "name": "Performance",
+ "category": "System",
+ "icon": "speed",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "stats",
+   "source": "stats",
+   "refresh": 2000
+  }
+ ],
+ "actions": {
+  "stats": [
+   {
+    "builtin": "performance"
+   }
+  ]
+ }
+}

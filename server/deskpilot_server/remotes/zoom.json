@@ -1,0 +1,211 @@
+{
+ "id": "zoom",
+ "name": "Zoom",
+ "category": "Apps",
+ "icon": "video_call",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "mic",
+     "text": "Mute mic",
+     "action": "mute"
+    },
+    {
+     "type": "button",
+     "icon": "video",
+     "text": "Camera",
+     "action": "video"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "share",
+     "text": "Share screen",
+     "action": "share"
+    },
+    {
+     "type": "button",
+     "icon": "record",
+     "text": "Record",
+     "action": "record"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "star",
+     "text": "Raise hand",
+     "action": "hand"
+    },
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Gallery view",
+     "action": "gallery"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Leave meeting",
+     "action": "end",
+     "style": "danger"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "mute": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "a"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "a"
+     ]
+    }
+   ]
+  },
+  "video": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "v"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "v"
+     ]
+    }
+   ]
+  },
+  "share": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "s"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "s"
+     ]
+    }
+   ]
+  },
+  "record": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "r"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "r"
+     ]
+    }
+   ]
+  },
+  "hand": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "y"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "alt",
+      "y"
+     ]
+    }
+   ]
+  },
+  "gallery": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "f2"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "w"
+     ]
+    }
+   ]
+  },
+  "end": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "q"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "w"
+     ]
+    }
+   ]
+  }
+ }
+}

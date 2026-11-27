@@ -1,0 +1,284 @@
+{
+ "id": "edge",
+ "name": "Edge",
+ "category": "Browsers",
+ "icon": "web",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "launch",
+     "text": "Open browser",
+     "action": "launch"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Back",
+     "action": "back"
+    },
+    {
+     "type": "button",
+     "icon": "refresh",
+     "text": "Reload",
+     "action": "refresh"
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "Forward",
+     "action": "forward"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "add",
+     "text": "New tab",
+     "action": "new_tab"
+    },
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Close tab",
+     "action": "close_tab"
+    },
+    {
+     "type": "button",
+     "icon": "tab",
+     "text": "Next tab",
+     "action": "next_tab"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "zoom_out",
+     "text": "",
+     "action": "zoom_out",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "100%",
+     "action": "zoom_reset"
+    },
+    {
+     "type": "button",
+     "icon": "zoom_in",
+     "text": "",
+     "action": "zoom_in",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "Page up",
+     "action": "page_up",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "fullscreen",
+     "text": "Fullscreen",
+     "action": "fullscreen"
+    },
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "Page down",
+     "action": "page_down",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "action": "go",
+   "hint": "Search or type URL",
+   "text": "Go"
+  },
+  {
+   "type": "touchpad"
+  }
+ ],
+ "actions": {
+  "back": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "left"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "["
+     ]
+    }
+   ]
+  },
+  "forward": {
+   "do": [
+    {
+     "keys": [
+      "alt",
+      "right"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "]"
+     ]
+    }
+   ]
+  },
+  "refresh": {
+   "do": [
+    {
+     "key": "f5"
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "r"
+     ]
+    }
+   ]
+  },
+  "new_tab": [
+   {
+    "keys": [
+     "primary",
+     "t"
+    ]
+   }
+  ],
+  "close_tab": [
+   {
+    "keys": [
+     "primary",
+     "w"
+    ]
+   }
+  ],
+  "next_tab": [
+   {
+    "keys": [
+     "ctrl",
+     "tab"
+    ]
+   }
+  ],
+  "zoom_in": [
+   {
+    "keys": [
+     "primary",
+     "="
+    ]
+   }
+  ],
+  "zoom_out": [
+   {
+    "keys": [
+     "primary",
+     "-"
+    ]
+   }
+  ],
+  "zoom_reset": [
+   {
+    "keys": [
+     "primary",
+     "0"
+    ]
+   }
+  ],
+  "page_up": [
+   {
+    "key": "pageup"
+   }
+  ],
+  "page_down": [
+   {
+    "key": "pagedown"
+   }
+  ],
+  "fullscreen": {
+   "do": [
+    {
+     "key": "f11"
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "ctrl",
+      "cmd",
+      "f"
+     ]
+    }
+   ]
+  },
+  "go": [
+   {
+    "keys": [
+     "primary",
+     "l"
+    ]
+   },
+   {
+    "delay": 80
+   },
+   {
+    "type": "{value}"
+   },
+   {
+    "key": "enter"
+   }
+  ],
+  "launch": [
+   {
+    "run": {
+     "win": "start msedge",
+     "mac": "open -a 'Microsoft Edge'",
+     "linux": "microsoft-edge"
+    }
+   }
+  ]
+ }
+}

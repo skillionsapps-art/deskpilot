@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color bg
+color brand
+color widget_bg
+color widget_fg
+drawable ic_keyboard
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_mouse
+drawable ic_next
+drawable ic_play_pause
+drawable ic_prev
+drawable ic_remote
+drawable ic_vol_down
+drawable ic_vol_up
+drawable widget_bg
+id w_next
+id w_play
+id w_prev
+id w_vol_down
+id w_vol_up
+layout widget_media
+mipmap ic_launcher
+string app_name
+string floating_channel
+string sc_keyboard
+string sc_media
+string sc_mouse
+string sc_play_pause
+string tile_play_pause
+string widget_name
+style Theme.DeskPilot
+style Theme.DeskPilot.Transparent
+style WidgetBtn
+xml shortcuts
+xml widget_media_info

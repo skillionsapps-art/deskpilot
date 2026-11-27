@@ -1,0 +1,22 @@
+{
+ "id": "basic_input",
+ "name": "Basic Input",
+ "category": "Essentials",
+ "icon": "mouse",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Mouse and keyboard on one screen",
+ "layout": [
+  {
+   "type": "touchpad"
+  },
+  {
+   "type": "keyboard"
+  }
+ ],
+ "actions": {}
+}

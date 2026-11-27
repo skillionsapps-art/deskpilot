@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.skillions.deskpilot.app-mergeDebugResources-59:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/ntfm81/Desktop/deskpilot/android/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "7,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "370,55",
+                        "endLines": "7,6",
+                        "endColumns": "38,12",
+                        "endOffsets": "404,365"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,94",
+                        "endLines": "2,7",
+                        "endColumns": "38,12",
+                        "endOffsets": "89,404"
+                    }
+                }
+            ]
+        }
+    ]
+}

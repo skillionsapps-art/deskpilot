@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=DeskPilot Server
+GenericName=Phone remote control server
+Comment=Control this computer from the DeskPilot Android app
+Exec=/opt/deskpilot-server/DeskPilotServer
+Icon=deskpilot-server
+Terminal=false
+Categories=Utility;Network;
+Keywords=remote;mouse;keyboard;phone;android;
+StartupNotify=false

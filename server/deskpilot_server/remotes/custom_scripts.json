@@ -1,0 +1,36 @@
+{
+ "id": "custom_scripts",
+ "name": "Custom Scripts",
+ "category": "System",
+ "icon": "code",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "list",
+   "source": "list",
+   "item_action": "run",
+   "title": "Scripts in ~/.deskpilot/scripts"
+  }
+ ],
+ "actions": {
+  "list": [
+   {
+    "builtin": "scripts.list"
+   }
+  ],
+  "run": [
+   {
+    "builtin": "scripts.run",
+    "args": {
+     "name": "{name}"
+    }
+   }
+  ]
+ }
+}

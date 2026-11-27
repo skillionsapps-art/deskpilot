@@ -1,0 +1,33 @@
+{
+ "id": "pixel_color",
+ "name": "Pixel Color",
+ "category": "System",
+ "icon": "palette",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "palette",
+     "text": "Colour under mouse",
+     "action": "pick"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "pick": [
+   {
+    "builtin": "screen.pixel"
+   }
+  ]
+ }
+}

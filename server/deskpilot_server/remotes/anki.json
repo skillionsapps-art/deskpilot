@@ -1,0 +1,127 @@
+{
+ "id": "anki",
+ "name": "Anki",
+ "category": "Apps",
+ "icon": "school",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "eye",
+     "text": "Show answer",
+     "action": "show",
+     "style": "primary"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Again",
+     "action": "again"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Hard",
+     "action": "hard"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Good",
+     "action": "good"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Easy",
+     "action": "easy"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Undo",
+     "action": "undo"
+    },
+    {
+     "type": "button",
+     "icon": "pen",
+     "text": "Edit",
+     "action": "edit"
+    },
+    {
+     "type": "button",
+     "icon": "star",
+     "text": "Flag",
+     "action": "flag"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "show": [
+   {
+    "key": "space"
+   }
+  ],
+  "again": [
+   {
+    "key": "1"
+   }
+  ],
+  "hard": [
+   {
+    "key": "2"
+   }
+  ],
+  "good": [
+   {
+    "key": "3"
+   }
+  ],
+  "easy": [
+   {
+    "key": "4"
+   }
+  ],
+  "undo": [
+   {
+    "keys": [
+     "primary",
+     "z"
+    ]
+   }
+  ],
+  "edit": [
+   {
+    "key": "e"
+   }
+  ],
+  "flag": [
+   {
+    "keys": [
+     "primary",
+     "1"
+    ]
+   }
+  ]
+ }
+}

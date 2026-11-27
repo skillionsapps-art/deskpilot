@@ -1,0 +1,153 @@
+{
+ "id": "mac_os_x",
+ "name": "Mac OS X",
+ "category": "System",
+ "icon": "apple",
+ "platforms": [
+  "mac"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Mission Control",
+     "action": "mission"
+    },
+    {
+     "type": "button",
+     "icon": "search",
+     "text": "Spotlight",
+     "action": "spotlight"
+    },
+    {
+     "type": "button",
+     "icon": "desktop",
+     "text": "Desktop",
+     "action": "desktop"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "tab",
+     "text": "Cmd+Tab",
+     "action": "cmdtab"
+    },
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Quit app",
+     "action": "quit"
+    },
+    {
+     "type": "button",
+     "icon": "fullscreen",
+     "text": "Full screen",
+     "action": "fs"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "lock",
+     "text": "Lock",
+     "action": "lock"
+    },
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Launchpad",
+     "action": "launchpad"
+    },
+    {
+     "type": "button",
+     "icon": "screen",
+     "text": "Screenshot",
+     "action": "shot"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "mission": [
+   {
+    "keys": [
+     "ctrl",
+     "up"
+    ]
+   }
+  ],
+  "spotlight": [
+   {
+    "keys": [
+     "cmd",
+     "space"
+    ]
+   }
+  ],
+  "desktop": [
+   {
+    "key": "f11"
+   }
+  ],
+  "cmdtab": [
+   {
+    "keys": [
+     "cmd",
+     "tab"
+    ]
+   }
+  ],
+  "quit": [
+   {
+    "keys": [
+     "cmd",
+     "q"
+    ]
+   }
+  ],
+  "fs": [
+   {
+    "keys": [
+     "ctrl",
+     "cmd",
+     "f"
+    ]
+   }
+  ],
+  "lock": [
+   {
+    "keys": [
+     "ctrl",
+     "cmd",
+     "q"
+    ]
+   }
+  ],
+  "launchpad": [
+   {
+    "run": "open -a Launchpad"
+   }
+  ],
+  "shot": [
+   {
+    "keys": [
+     "cmd",
+     "shift",
+     "3"
+    ]
+   }
+  ]
+ }
+}

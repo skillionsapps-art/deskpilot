@@ -1,0 +1,311 @@
+{
+ "id": "keyboard_function",
+ "name": "Keyboard (Function)",
+ "category": "Essentials",
+ "icon": "keyboard",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F1",
+     "action": "f1"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F2",
+     "action": "f2"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F3",
+     "action": "f3"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F4",
+     "action": "f4"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F5",
+     "action": "f5"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F6",
+     "action": "f6"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F7",
+     "action": "f7"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F8",
+     "action": "f8"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F9",
+     "action": "f9"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F10",
+     "action": "f10"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F11",
+     "action": "f11"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F12",
+     "action": "f12"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F13",
+     "action": "f13"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F14",
+     "action": "f14"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F15",
+     "action": "f15"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F16",
+     "action": "f16"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F17",
+     "action": "f17"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F18",
+     "action": "f18"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F19",
+     "action": "f19"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F20",
+     "action": "f20"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F21",
+     "action": "f21"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F22",
+     "action": "f22"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F23",
+     "action": "f23"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "F24",
+     "action": "f24"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "f1": [
+   {
+    "key": "f1"
+   }
+  ],
+  "f2": [
+   {
+    "key": "f2"
+   }
+  ],
+  "f3": [
+   {
+    "key": "f3"
+   }
+  ],
+  "f4": [
+   {
+    "key": "f4"
+   }
+  ],
+  "f5": [
+   {
+    "key": "f5"
+   }
+  ],
+  "f6": [
+   {
+    "key": "f6"
+   }
+  ],
+  "f7": [
+   {
+    "key": "f7"
+   }
+  ],
+  "f8": [
+   {
+    "key": "f8"
+   }
+  ],
+  "f9": [
+   {
+    "key": "f9"
+   }
+  ],
+  "f10": [
+   {
+    "key": "f10"
+   }
+  ],
+  "f11": [
+   {
+    "key": "f11"
+   }
+  ],
+  "f12": [
+   {
+    "key": "f12"
+   }
+  ],
+  "f13": [
+   {
+    "key": "f13"
+   }
+  ],
+  "f14": [
+   {
+    "key": "f14"
+   }
+  ],
+  "f15": [
+   {
+    "key": "f15"
+   }
+  ],
+  "f16": [
+   {
+    "key": "f16"
+   }
+  ],
+  "f17": [
+   {
+    "key": "f17"
+   }
+  ],
+  "f18": [
+   {
+    "key": "f18"
+   }
+  ],
+  "f19": [
+   {
+    "key": "f19"
+   }
+  ],
+  "f20": [
+   {
+    "key": "f20"
+   }
+  ],
+  "f21": [
+   {
+    "key": "f21"
+   }
+  ],
+  "f22": [
+   {
+    "key": "f22"
+   }
+  ],
+  "f23": [
+   {
+    "key": "f23"
+   }
+  ],
+  "f24": [
+   {
+    "key": "f24"
+   }
+  ]
+ }
+}

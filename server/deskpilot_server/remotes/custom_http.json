@@ -1,0 +1,31 @@
+{
+ "id": "custom_http",
+ "name": "Custom HTTP",
+ "category": "System",
+ "icon": "web",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "Fire an HTTP request from the computer (smart-home bridges, webhooks)",
+ "layout": [
+  {
+   "type": "text",
+   "action": "get",
+   "hint": "http://192.168.1.20/api/toggle",
+   "text": "GET"
+  }
+ ],
+ "actions": {
+  "get": [
+   {
+    "builtin": "http",
+    "args": {
+     "url": "{value}"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "screen",
+ "name": "Screen",
+ "category": "Essentials",
+ "icon": "screen",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "Screen mirroring with a trackpad underneath (needs Pillow on the server)",
+ "layout": [
+  {
+   "type": "screen",
+   "source": "capture",
+   "refresh": 700
+  },
+  {
+   "type": "touchpad"
+  }
+ ],
+ "actions": {
+  "capture": [
+   {
+    "builtin": "screen.capture",
+    "args": {
+     "width": 960
+    }
+   }
+  ]
+ }
+}

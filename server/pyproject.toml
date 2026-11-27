@@ -1,0 +1,26 @@
+[project]
+name = "deskpilot-server"
+version = "1.0.0"
+description = "Desktop server for the DeskPilot Android remote (Windows, macOS, Linux)"
+requires-python = ">=3.9"
+dependencies = [
+  "cryptography>=41",
+  "pynput>=1.7.6",
+  "psutil>=5.9",
+  "Pillow>=10",                      # screen mirroring + pixel colour
+  "pycaw>=20230407; sys_platform == 'win32'",   # absolute volume on Windows
+  "comtypes>=1.2; sys_platform == 'win32'",
+]
+
+[project.scripts]
+deskpilot-server = "deskpilot_server.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["deskpilot_server*"]
+
+[tool.setuptools.package-data]
+deskpilot_server = ["remotes/*.json", "assets/*.png"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

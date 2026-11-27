@@ -1,0 +1,69 @@
+{
+ "id": "monitor",
+ "name": "Monitor",
+ "category": "Essentials",
+ "icon": "monitor",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "eye_off",
+     "text": "Monitor off",
+     "action": "off"
+    },
+    {
+     "type": "button",
+     "icon": "eye",
+     "text": "Monitor on",
+     "action": "on"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "star",
+     "text": "Screensaver",
+     "action": "saver"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "off": [
+   {
+    "builtin": "monitor",
+    "args": {
+     "op": "off"
+    }
+   }
+  ],
+  "on": [
+   {
+    "builtin": "monitor",
+    "args": {
+     "op": "on"
+    }
+   }
+  ],
+  "saver": [
+   {
+    "builtin": "monitor",
+    "args": {
+     "op": "screensaver"
+    }
+   }
+  ]
+ }
+}

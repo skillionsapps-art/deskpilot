@@ -1,0 +1,103 @@
+{
+ "id": "magnifier",
+ "name": "Magnifier",
+ "category": "System",
+ "icon": "zoom_in",
+ "platforms": [
+  "win",
+  "mac"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "zoom_in",
+     "text": "Zoom in",
+     "action": "in",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "zoom_out",
+     "text": "Zoom out",
+     "action": "out",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Close",
+     "action": "close"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "in": {
+   "do": [
+    {
+     "keys": [
+      "win",
+      "plus"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "alt",
+      "cmd",
+      "="
+     ]
+    }
+   ]
+  },
+  "out": {
+   "do": [
+    {
+     "keys": [
+      "win",
+      "minus"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "alt",
+      "cmd",
+      "-"
+     ]
+    }
+   ]
+  },
+  "close": {
+   "do": [
+    {
+     "keys": [
+      "win",
+      "esc"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "alt",
+      "cmd",
+      "8"
+     ]
+    }
+   ]
+  }
+ }
+}

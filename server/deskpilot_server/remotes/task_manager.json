@@ -1,0 +1,70 @@
+{
+ "id": "task_manager",
+ "name": "Task Manager",
+ "category": "System",
+ "icon": "tasks",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "list",
+   "source": "list",
+   "item_action": "kill",
+   "confirm": "End this process?",
+   "title": "Processes",
+   "refresh": 5000
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Open Task Manager",
+     "action": "taskmgr"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "list": [
+   {
+    "builtin": "tasks.list"
+   }
+  ],
+  "kill": [
+   {
+    "builtin": "tasks.kill",
+    "args": {
+     "pid": "{pid}"
+    }
+   }
+  ],
+  "taskmgr": {
+   "win": [
+    {
+     "keys": [
+      "ctrl",
+      "shift",
+      "esc"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "run": "open -a 'Activity Monitor'"
+    }
+   ],
+   "linux": [
+    {
+     "run": "gnome-system-monitor"
+    }
+   ]
+  }
+ }
+}

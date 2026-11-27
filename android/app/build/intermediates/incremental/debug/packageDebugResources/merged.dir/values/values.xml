@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FFF7F7FB</color>
+    <color name="brand">#FF2F6BFF</color>
+    <color name="widget_bg">#E61B1F2A</color>
+    <color name="widget_fg">#FFFFFFFF</color>
+    <string name="app_name">DeskPilot</string>
+    <string name="floating_channel">Floating remote</string>
+    <string name="sc_keyboard">Keyboard</string>
+    <string name="sc_media">Media</string>
+    <string name="sc_mouse">Mouse</string>
+    <string name="sc_play_pause">Play / Pause</string>
+    <string name="tile_play_pause">PC Play/Pause</string>
+    <string name="widget_name">DeskPilot media</string>
+    <style name="Theme.DeskPilot" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+    <style name="Theme.DeskPilot.Transparent" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="WidgetBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:tint">@color/widget_fg</item>
+        <item name="android:scaleType">center</item>
+    </style>
+</resources>

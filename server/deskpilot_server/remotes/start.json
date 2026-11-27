@@ -1,0 +1,45 @@
+{
+ "id": "start",
+ "name": "Start",
+ "category": "System",
+ "icon": "windows",
+ "platforms": [
+  "win"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Start menu",
+     "action": "start"
+    },
+    {
+     "type": "button",
+     "icon": "search",
+     "text": "Search",
+     "action": "search"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "start": [
+   {
+    "key": "win"
+   }
+  ],
+  "search": [
+   {
+    "keys": [
+     "win",
+     "s"
+    ]
+   }
+  ]
+ }
+}

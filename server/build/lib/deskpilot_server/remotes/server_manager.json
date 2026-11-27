@@ -1,0 +1,40 @@
+{
+ "id": "server_manager",
+ "name": "Server Manager",
+ "category": "System",
+ "icon": "settings",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Inspect the server; reload remotes via the app menu",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "info",
+     "text": "Server info",
+     "action": "info"
+    },
+    {
+     "type": "button",
+     "icon": "refresh",
+     "text": "Reload remotes",
+     "action": "reload"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "info": [
+   {
+    "builtin": "system.info"
+   }
+  ],
+  "reload": []
+ }
+}

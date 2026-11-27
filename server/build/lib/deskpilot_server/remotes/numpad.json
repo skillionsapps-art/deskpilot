@@ -1,0 +1,233 @@
+{
+ "id": "numpad",
+ "name": "Numpad",
+ "category": "Essentials",
+ "icon": "dialpad",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "7",
+     "action": "n7"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "8",
+     "action": "n8"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "9",
+     "action": "n9"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "/",
+     "action": "div"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "4",
+     "action": "n4"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "5",
+     "action": "n5"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "6",
+     "action": "n6"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "*",
+     "action": "mul"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "1",
+     "action": "n1"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "2",
+     "action": "n2"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "3",
+     "action": "n3"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "-",
+     "action": "sub"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "0",
+     "action": "n0",
+     "weight": 2
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": ".",
+     "action": "dot"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "+",
+     "action": "add"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "backspace",
+     "text": "",
+     "action": "bksp",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "ok",
+     "text": "Enter",
+     "action": "enter",
+     "style": "primary",
+     "weight": 2
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "n0": [
+   {
+    "key": "num0"
+   }
+  ],
+  "n1": [
+   {
+    "key": "num1"
+   }
+  ],
+  "n2": [
+   {
+    "key": "num2"
+   }
+  ],
+  "n3": [
+   {
+    "key": "num3"
+   }
+  ],
+  "n4": [
+   {
+    "key": "num4"
+   }
+  ],
+  "n5": [
+   {
+    "key": "num5"
+   }
+  ],
+  "n6": [
+   {
+    "key": "num6"
+   }
+  ],
+  "n7": [
+   {
+    "key": "num7"
+   }
+  ],
+  "n8": [
+   {
+    "key": "num8"
+   }
+  ],
+  "n9": [
+   {
+    "key": "num9"
+   }
+  ],
+  "div": [
+   {
+    "key": "num/"
+   }
+  ],
+  "mul": [
+   {
+    "key": "num*"
+   }
+  ],
+  "sub": [
+   {
+    "key": "num-"
+   }
+  ],
+  "add": [
+   {
+    "key": "num+"
+   }
+  ],
+  "dot": [
+   {
+    "key": "num."
+   }
+  ],
+  "enter": [
+   {
+    "key": "enter"
+   }
+  ],
+  "bksp": [
+   {
+    "key": "backspace"
+   }
+  ]
+ }
+}

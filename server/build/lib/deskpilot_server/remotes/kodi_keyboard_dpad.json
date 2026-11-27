@@ -1,0 +1,201 @@
+{
+ "id": "kodi_keyboard_dpad",
+ "name": "Kodi (Keyboard) Dpad",
+ "category": "Media Center",
+ "icon": "tv",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "menu",
+     "text": "Menu",
+     "action": "context"
+    },
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "",
+     "action": "up",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "info",
+     "text": "Info",
+     "action": "info"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "left",
+     "text": "",
+     "action": "left",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "ok",
+     "text": "",
+     "action": "select",
+     "style": "primary"
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "",
+     "action": "right",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Back",
+     "action": "back"
+    },
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "",
+     "action": "down",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "home",
+     "text": "Home",
+     "action": "home"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "up": [
+   {
+    "key": "up"
+   }
+  ],
+  "down": [
+   {
+    "key": "down"
+   }
+  ],
+  "left": [
+   {
+    "key": "left"
+   }
+  ],
+  "right": [
+   {
+    "key": "right"
+   }
+  ],
+  "select": [
+   {
+    "key": "enter"
+   }
+  ],
+  "back": [
+   {
+    "key": "backspace"
+   }
+  ],
+  "home": [
+   {
+    "key": "esc"
+   }
+  ],
+  "context": [
+   {
+    "key": "c"
+   }
+  ],
+  "info": [
+   {
+    "key": "i"
+   }
+  ],
+  "osd": [
+   {
+    "key": "m"
+   }
+  ],
+  "play_pause": [
+   {
+    "key": "space"
+   }
+  ],
+  "stop": [
+   {
+    "key": "x"
+   }
+  ],
+  "next": [
+   {
+    "key": "."
+   }
+  ],
+  "prev": [
+   {
+    "key": ","
+   }
+  ],
+  "rewind": [
+   {
+    "key": "r"
+   }
+  ],
+  "forward": [
+   {
+    "key": "f"
+   }
+  ],
+  "vol_up": [
+   {
+    "key": "+"
+   }
+  ],
+  "vol_down": [
+   {
+    "key": "-"
+   }
+  ],
+  "mute": [
+   {
+    "key": "f8"
+   }
+  ],
+  "fullscreen": [
+   {
+    "key": "\\"
+   }
+  ],
+  "subs": [
+   {
+    "key": "t"
+   }
+  ],
+  "power": [
+   {
+    "key": "s"
+   }
+  ]
+ }
+}

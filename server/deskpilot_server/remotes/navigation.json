@@ -1,0 +1,177 @@
+{
+ "id": "navigation",
+ "name": "Navigation",
+ "category": "Essentials",
+ "icon": "navigation",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "PgUp",
+     "action": "pgup",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "",
+     "action": "up",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "PgDn",
+     "action": "pgdn",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "left",
+     "text": "",
+     "action": "left",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "ok",
+     "text": "",
+     "action": "enter",
+     "style": "primary"
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "",
+     "action": "right",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Home",
+     "action": "home"
+    },
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "",
+     "action": "down",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "End",
+     "action": "end"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Esc",
+     "action": "esc"
+    },
+    {
+     "type": "button",
+     "icon": "tab",
+     "text": "Tab",
+     "action": "tab"
+    },
+    {
+     "type": "button",
+     "icon": "backspace",
+     "text": "Bksp",
+     "action": "backspace",
+     "repeat": true
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "up": [
+   {
+    "key": "up"
+   }
+  ],
+  "down": [
+   {
+    "key": "down"
+   }
+  ],
+  "left": [
+   {
+    "key": "left"
+   }
+  ],
+  "right": [
+   {
+    "key": "right"
+   }
+  ],
+  "enter": [
+   {
+    "key": "enter"
+   }
+  ],
+  "pgup": [
+   {
+    "key": "pageup"
+   }
+  ],
+  "pgdn": [
+   {
+    "key": "pagedown"
+   }
+  ],
+  "home": [
+   {
+    "key": "home"
+   }
+  ],
+  "end": [
+   {
+    "key": "end"
+   }
+  ],
+  "esc": [
+   {
+    "key": "esc"
+   }
+  ],
+  "tab": [
+   {
+    "key": "tab"
+   }
+  ],
+  "backspace": [
+   {
+    "key": "backspace"
+   }
+  ]
+ }
+}

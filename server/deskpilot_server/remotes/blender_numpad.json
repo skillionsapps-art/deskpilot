@@ -1,0 +1,152 @@
+{
+ "id": "blender_numpad",
+ "name": "Blender Numpad",
+ "category": "Creative",
+ "icon": "3d",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Blender viewport numpad (full numpad emulation on Windows)",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Top",
+     "action": "top"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Front",
+     "action": "front"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Right",
+     "action": "right"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Camera",
+     "action": "camera"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Persp/Ortho",
+     "action": "ortho"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Frame sel.",
+     "action": "frame"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "front": [
+   {
+    "key": "num1"
+   }
+  ],
+  "right": [
+   {
+    "key": "num3"
+   }
+  ],
+  "top": [
+   {
+    "key": "num7"
+   }
+  ],
+  "back": [
+   {
+    "keys": [
+     "ctrl",
+     "num1"
+    ]
+   }
+  ],
+  "left": [
+   {
+    "keys": [
+     "ctrl",
+     "num3"
+    ]
+   }
+  ],
+  "bottom": [
+   {
+    "keys": [
+     "ctrl",
+     "num7"
+    ]
+   }
+  ],
+  "camera": [
+   {
+    "key": "num0"
+   }
+  ],
+  "ortho": [
+   {
+    "key": "num5"
+   }
+  ],
+  "frame": [
+   {
+    "key": "num."
+   }
+  ],
+  "orbit_l": [
+   {
+    "key": "num4"
+   }
+  ],
+  "orbit_r": [
+   {
+    "key": "num6"
+   }
+  ],
+  "orbit_u": [
+   {
+    "key": "num8"
+   }
+  ],
+  "orbit_d": [
+   {
+    "key": "num2"
+   }
+  ],
+  "zoom_in": [
+   {
+    "key": "num+"
+   }
+  ],
+  "zoom_out": [
+   {
+    "key": "num-"
+   }
+  ],
+  "local": [
+   {
+    "key": "num/"
+   }
+  ]
+ }
+}

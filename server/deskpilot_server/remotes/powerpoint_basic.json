@@ -1,0 +1,149 @@
+{
+ "id": "powerpoint_basic",
+ "name": "PowerPoint Basic",
+ "category": "Presentations",
+ "icon": "slides",
+ "platforms": [
+  "win",
+  "mac"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "prev",
+     "text": "Previous",
+     "action": "prev"
+    },
+    {
+     "type": "button",
+     "icon": "next",
+     "text": "Next",
+     "action": "next",
+     "style": "primary",
+     "weight": 1.6
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "play",
+     "text": "Start",
+     "action": "start"
+    },
+    {
+     "type": "button",
+     "icon": "play",
+     "text": "From current",
+     "action": "start_current"
+    },
+    {
+     "type": "button",
+     "icon": "stop",
+     "text": "End",
+     "action": "end"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "black",
+     "text": "Black",
+     "action": "black"
+    },
+    {
+     "type": "button",
+     "icon": "white",
+     "text": "White",
+     "action": "white"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "action": "goto",
+   "hint": "Go to slide #",
+   "text": "Go",
+   "number": true
+  }
+ ],
+ "actions": {
+  "next": [
+   {
+    "key": "right"
+   }
+  ],
+  "prev": [
+   {
+    "key": "left"
+   }
+  ],
+  "start": {
+   "do": [
+    {
+     "key": "f5"
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "shift",
+      "enter"
+     ]
+    }
+   ]
+  },
+  "start_current": {
+   "do": [
+    {
+     "keys": [
+      "shift",
+      "f5"
+     ]
+    }
+   ],
+   "mac": [
+    {
+     "keys": [
+      "cmd",
+      "enter"
+     ]
+    }
+   ]
+  },
+  "end": [
+   {
+    "key": "esc"
+   }
+  ],
+  "black": [
+   {
+    "key": "b"
+   }
+  ],
+  "white": [
+   {
+    "key": "w"
+   }
+  ],
+  "goto": [
+   {
+    "type": "{value}"
+   },
+   {
+    "key": "enter"
+   }
+  ]
+ }
+}

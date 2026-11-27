@@ -1,0 +1,32 @@
+{
+ "id": "command",
+ "name": "Command",
+ "category": "System",
+ "icon": "terminal",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "Terminal: run a command on the computer and see its output",
+ "layout": [
+  {
+   "type": "text",
+   "action": "run",
+   "hint": "Shell command (output shown on phone)",
+   "text": "Run"
+  }
+ ],
+ "actions": {
+  "run": [
+   {
+    "builtin": "run",
+    "args": {
+     "cmd": "{value}",
+     "capture": true
+    }
+   }
+  ]
+ }
+}

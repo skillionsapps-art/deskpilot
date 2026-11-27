@@ -1,0 +1,43 @@
+{
+ "id": "send_text",
+ "name": "Send Text",
+ "category": "Essentials",
+ "icon": "text",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "text",
+   "action": "send",
+   "hint": "Text to type on the computer",
+   "text": "Send",
+   "multiline": true
+  },
+  {
+   "type": "text",
+   "action": "send_enter",
+   "hint": "Send and press Enter",
+   "text": "Send + Enter"
+  }
+ ],
+ "actions": {
+  "send": [
+   {
+    "type": "{value}"
+   }
+  ],
+  "send_enter": [
+   {
+    "type": "{value}"
+   },
+   {
+    "key": "enter"
+   }
+  ]
+ }
+}

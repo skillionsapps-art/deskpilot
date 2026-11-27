@@ -1,0 +1,20 @@
+{
+ "id": "mouse",
+ "name": "Mouse",
+ "category": "Essentials",
+ "icon": "mouse",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Multi-touch trackpad: tap, two-finger scroll, two-finger tap right-click, long-press drag",
+ "layout": [
+  {
+   "type": "touchpad",
+   "fill": true
+  }
+ ],
+ "actions": {}
+}

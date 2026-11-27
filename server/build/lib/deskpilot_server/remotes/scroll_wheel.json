@@ -1,0 +1,111 @@
+{
+ "id": "scroll_wheel",
+ "name": "Scroll Wheel",
+ "category": "Essentials",
+ "icon": "mouse",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "Scroll up",
+     "action": "up",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "Scroll down",
+     "action": "down",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "left",
+     "text": "Left",
+     "action": "left",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "Right",
+     "action": "right",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "mouse",
+     "text": "Click",
+     "action": "click"
+    },
+    {
+     "type": "button",
+     "icon": "mouse",
+     "text": "Right click",
+     "action": "rclick"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "up": [
+   {
+    "mouse": "scroll",
+    "dy": 3
+   }
+  ],
+  "down": [
+   {
+    "mouse": "scroll",
+    "dy": -3
+   }
+  ],
+  "left": [
+   {
+    "mouse": "scroll",
+    "dx": -3
+   }
+  ],
+  "right": [
+   {
+    "mouse": "scroll",
+    "dx": 3
+   }
+  ],
+  "click": [
+   {
+    "mouse": "click"
+   }
+  ],
+  "rclick": [
+   {
+    "mouse": "right"
+   }
+  ]
+ }
+}

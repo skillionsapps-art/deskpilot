@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_next.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_next.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_prev.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_prev.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_vol_up.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_vol_up.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_play_pause.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_play_pause.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/layout_widget_media.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/layout/widget_media.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_mouse.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_mouse.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/xml_widget_media_info.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/xml/widget_media_info.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_remote.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_remote.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_widget_bg.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/widget_bg.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_vol_down.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_vol_down.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/xml_shortcuts.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/xml/shortcuts.xml"
+    },
+    {
+        "merged": "com.skillions.deskpilot.app-debug-61:/drawable_ic_keyboard.xml.flat",
+        "source": "com.skillions.deskpilot.app-main-63:/drawable/ic_keyboard.xml"
+    }
+]

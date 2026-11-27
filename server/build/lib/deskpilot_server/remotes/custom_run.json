@@ -1,0 +1,31 @@
+{
+ "id": "custom_run",
+ "name": "Custom Run",
+ "category": "System",
+ "icon": "launch",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "text",
+   "action": "run",
+   "hint": "Program, file or URL to open",
+   "text": "Open"
+  }
+ ],
+ "actions": {
+  "run": [
+   {
+    "builtin": "open",
+    "args": {
+     "target": "{value}"
+    }
+   }
+  ]
+ }
+}

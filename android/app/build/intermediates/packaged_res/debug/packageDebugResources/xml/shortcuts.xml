@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="play_pause"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_pause"
+        android:shortcutShortLabel="@string/sc_play_pause">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.skillions.deskpilot"
+            android:targetClass="com.skillions.deskpilot.actions.ActionActivity"
+            android:data="deskpilot://action?media=media_play_pause" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="mouse"
+        android:enabled="true"
+        android:icon="@drawable/ic_mouse"
+        android:shortcutShortLabel="@string/sc_mouse">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.skillions.deskpilot"
+            android:targetClass="com.skillions.deskpilot.ui.MainActivity"
+            android:data="deskpilot://open?remote=mouse" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="keyboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_keyboard"
+        android:shortcutShortLabel="@string/sc_keyboard">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.skillions.deskpilot"
+            android:targetClass="com.skillions.deskpilot.ui.MainActivity"
+            android:data="deskpilot://open?remote=keyboard" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="media"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_pause"
+        android:shortcutShortLabel="@string/sc_media">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.skillions.deskpilot"
+            android:targetClass="com.skillions.deskpilot.ui.MainActivity"
+            android:data="deskpilot://open?remote=media" />
+    </shortcut>
+</shortcuts>

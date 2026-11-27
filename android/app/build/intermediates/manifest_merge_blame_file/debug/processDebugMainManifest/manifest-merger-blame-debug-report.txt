@@ -1,0 +1,420 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.skillions.deskpilot"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- server connection -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:8:5-76
+14-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+15-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:9:5-86
+15-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:9:22-83
+16    <!-- Bluetooth transport -->
+17    <uses-permission
+17-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:11:5-95
+18        android:name="android.permission.BLUETOOTH"
+18-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:11:22-65
+19        android:maxSdkVersion="30" />
+19-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:11:66-92
+20    <uses-permission
+20-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:12:5-101
+21        android:name="android.permission.BLUETOOTH_ADMIN"
+21-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:12:22-71
+22        android:maxSdkVersion="30" />
+22-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:12:72-98
+23    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+23-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:13:5-76
+23-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:13:22-73
+24    <!-- floating remotes -->
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:15:5-78
+25-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:15:22-75
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:16:5-77
+26-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:16:22-74
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+27-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:17:5-89
+27-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:17:22-86
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+28-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:18:5-77
+28-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:18:22-74
+29    <!-- auto-pause on incoming calls -->
+30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+30-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:20:5-75
+30-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:20:22-72
+31    <!-- NFC actions, IR actions, haptics, wake-lock, voice -->
+32    <uses-permission android:name="android.permission.NFC" />
+32-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:22:5-62
+32-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:22:22-59
+33    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+33-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:23:5-70
+33-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:23:22-67
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:24:5-66
+34-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:24:22-63
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:25:5-68
+35-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:25:22-65
+36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+36-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:26:5-71
+36-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:26:22-68
+37
+38    <uses-feature
+38-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:28:5-82
+39        android:name="android.hardware.nfc"
+39-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:28:19-54
+40        android:required="false" />
+40-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:28:55-79
+41    <uses-feature
+41-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:29:5-89
+42        android:name="android.hardware.consumerir"
+42-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:29:19-61
+43        android:required="false" />
+43-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:29:62-86
+44    <uses-feature
+44-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:30:5-88
+45        android:name="android.hardware.bluetooth"
+45-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:30:19-60
+46        android:required="false" />
+46-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:30:61-85
+47    <uses-feature
+47-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:31:5-88
+48        android:name="android.hardware.telephony"
+48-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:31:19-60
+49        android:required="false" />
+49-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:31:61-85
+50    <uses-feature
+50-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:32:5-89
+51        android:name="android.hardware.microphone"
+51-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:32:19-61
+52        android:required="false" />
+52-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:32:62-86
+53
+54    <queries>
+54-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:34:5-38:15
+55        <intent>
+55-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:35:9-37:18
+56            <action android:name="android.speech.RecognitionService" />
+56-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:36:13-72
+56-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:36:21-69
+57        </intent>
+58    </queries>
+59
+60    <permission
+60-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+61        android:name="com.skillions.deskpilot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.skillions.deskpilot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+64-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+65
+66    <application
+66-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:40:5-127:19
+67        android:name="com.skillions.deskpilot.DeskPilotApp"
+67-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:41:9-37
+68        android:allowBackup="true"
+68-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:42:9-35
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.15.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/6e6b9f720b847ea84d035897783d9e1d/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+70        android:debuggable="true"
+71        android:extractNativeLibs="false"
+72        android:icon="@mipmap/ic_launcher"
+72-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:43:9-43
+73        android:label="@string/app_name"
+73-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:45:9-41
+74        android:roundIcon="@mipmap/ic_launcher"
+74-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:44:9-48
+75        android:supportsRtl="true"
+75-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:46:9-35
+76        android:theme="@style/Theme.DeskPilot" >
+76-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:47:9-47
+77        <activity
+77-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:50:9-66:20
+78            android:name="com.skillions.deskpilot.ui.MainActivity"
+78-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:51:13-44
+79            android:exported="true"
+79-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:52:13-36
+80            android:launchMode="singleTop"
+80-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:53:13-43
+81            android:windowSoftInputMode="adjustResize" >
+81-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:54:13-55
+82            <intent-filter>
+82-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:55:13-58:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:56:17-69
+83-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:56:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:57:17-77
+85-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:57:27-74
+86            </intent-filter>
+87            <!-- deskpilot://open?remote=vlc  (pinned launcher shortcuts) -->
+88            <intent-filter>
+88-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:60:13-64:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:61:17-69
+89-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:61:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:17-76
+91-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:27-73
+92
+93                <data
+93-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:17-72
+94                    android:host="open"
+94-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:50-69
+95                    android:scheme="deskpilot" />
+95-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:23-49
+96            </intent-filter>
+97
+98            <meta-data
+98-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:65:13-97
+99                android:name="android.app.shortcuts"
+99-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:65:24-60
+100                android:resource="@xml/shortcuts" />
+100-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:65:61-94
+101        </activity>
+102
+103        <!-- Headless action runner: NFC tags, quick-action shortcuts, voice assistant links -->
+104        <activity
+104-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:69:9-86:20
+105            android:name="com.skillions.deskpilot.actions.ActionActivity"
+105-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:70:13-51
+106            android:excludeFromRecents="true"
+106-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:72:13-46
+107            android:exported="true"
+107-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:71:13-36
+108            android:noHistory="true"
+108-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:73:13-37
+109            android:taskAffinity=""
+109-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:74:13-36
+110            android:theme="@style/Theme.DeskPilot.Transparent" >
+110-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:75:13-63
+111            <intent-filter>
+111-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:76:13-80:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:61:17-69
+112-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:61:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:17-76
+114-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:27-73
+115
+116                <data
+116-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:17-72
+117                    android:host="action"
+117-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:50-69
+118                    android:scheme="deskpilot" />
+118-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:23-49
+119            </intent-filter>
+120            <intent-filter>
+120-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:81:13-85:29
+121                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+121-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:82:17-77
+121-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:82:25-74
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:17-76
+123-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:62:27-73
+124
+125                <data
+125-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:17-72
+126                    android:host="action"
+126-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:50-69
+127                    android:scheme="deskpilot" />
+127-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:23-49
+128            </intent-filter>
+129        </activity>
+130
+131        <service
+131-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:88:9-95:19
+132            android:name="com.skillions.deskpilot.services.FloatingRemoteService"
+132-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:89:13-59
+133            android:exported="false"
+133-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:90:13-37
+134            android:foregroundServiceType="specialUse" >
+134-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:91:13-55
+135            <property
+135-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:92:13-94:111
+136                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+136-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:93:17-76
+137                android:value="Floating remote-control overlay drawn over other apps at the user&apos;s request" />
+137-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:94:17-108
+138        </service>
+139        <service
+139-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:97:9-107:19
+140            android:name="com.skillions.deskpilot.services.MediaTileService"
+140-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:98:13-54
+141            android:exported="true"
+141-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:99:13-36
+142            android:icon="@drawable/ic_play_pause"
+142-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:100:13-51
+143            android:label="@string/tile_play_pause"
+143-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:101:13-52
+144            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+144-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:102:13-77
+145            <intent-filter>
+145-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:103:13-105:29
+146                <action android:name="android.service.quicksettings.action.QS_TILE" />
+146-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:104:17-87
+146-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:104:25-84
+147            </intent-filter>
+148
+149            <meta-data
+149-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:106:13-105
+150                android:name="android.service.quicksettings.ACTIVE_TILE"
+150-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:106:24-80
+151                android:value="false" />
+151-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:106:81-102
+152        </service>
+153        <service
+153-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:109:9-116:19
+154            android:name="com.skillions.deskpilot.services.WearRelayService"
+154-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:110:13-54
+155            android:exported="true" >
+155-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:111:13-36
+156            <intent-filter>
+156-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:112:13-115:29
+157                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+157-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:113:17-91
+157-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:113:25-88
+158
+159                <data
+159-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:17-72
+160                    android:host="*"
+160-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:50-69
+161                    android:pathPrefix="/deskpilot"
+161-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:114:62-93
+162                    android:scheme="wear" />
+162-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:63:23-49
+163            </intent-filter>
+164        </service>
+165
+166        <receiver
+166-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:118:9-126:20
+167            android:name="com.skillions.deskpilot.services.MediaWidgetProvider"
+167-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:119:13-57
+168            android:exported="false"
+168-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:120:13-37
+169            android:label="@string/widget_name" >
+169-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:121:13-48
+170            <intent-filter>
+170-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:122:13-124:29
+171                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+171-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:123:17-84
+171-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:123:25-81
+172            </intent-filter>
+173
+174            <meta-data
+174-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:125:13-110
+175                android:name="android.appwidget.provider"
+175-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:125:24-65
+176                android:resource="@xml/widget_media_info" />
+176-->/Users/ntfm81/Desktop/deskpilot/android/app/src/main/AndroidManifest.xml:125:66-107
+177        </receiver>
+178
+179        <activity
+179-->[com.google.android.gms:play-services-base:18.5.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/f106ef88beb89248c7188d40959d1665/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+180-->[com.google.android.gms:play-services-base:18.5.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/f106ef88beb89248c7188d40959d1665/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-base:18.5.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/f106ef88beb89248c7188d40959d1665/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-base:18.5.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/f106ef88beb89248c7188d40959d1665/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+183        <activity
+183-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/ntfm81/.gradle/caches/8.11.1/transforms/c611b0a1e9e18cad7243d4e742309f4b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+184            android:name="androidx.compose.ui.tooling.PreviewActivity"
+184-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/ntfm81/.gradle/caches/8.11.1/transforms/c611b0a1e9e18cad7243d4e742309f4b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+185            android:exported="true" />
+185-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/ntfm81/.gradle/caches/8.11.1/transforms/c611b0a1e9e18cad7243d4e742309f4b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+186
+187        <provider
+187-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+188            android:name="androidx.startup.InitializationProvider"
+188-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+189            android:authorities="com.skillions.deskpilot.androidx-startup"
+189-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+190            android:exported="false" >
+190-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+191            <meta-data
+191-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+192                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+192-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+193                android:value="androidx.startup" />
+193-->[androidx.emoji2:emoji2:1.3.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/4ae68e347f8a9c48ae302ef65e05e388/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+194            <meta-data
+194-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ntfm81/.gradle/caches/8.11.1/transforms/3cee0de8bdc79d94c692cf0ba80f4dde/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+195                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+195-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ntfm81/.gradle/caches/8.11.1/transforms/3cee0de8bdc79d94c692cf0ba80f4dde/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+196                android:value="androidx.startup" />
+196-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/ntfm81/.gradle/caches/8.11.1/transforms/3cee0de8bdc79d94c692cf0ba80f4dde/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+197            <meta-data
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+198                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+199                android:value="androidx.startup" />
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+200        </provider>
+201
+202        <meta-data
+202-->[com.google.android.gms:play-services-basement:18.4.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/36dbb8ba1863ab152cc5ee72b7bcebed/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+203            android:name="com.google.android.gms.version"
+203-->[com.google.android.gms:play-services-basement:18.4.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/36dbb8ba1863ab152cc5ee72b7bcebed/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+204            android:value="@integer/google_play_services_version" />
+204-->[com.google.android.gms:play-services-basement:18.4.0] /Users/ntfm81/.gradle/caches/8.11.1/transforms/36dbb8ba1863ab152cc5ee72b7bcebed/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+205
+206        <receiver
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+207            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+207-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+208            android:directBootAware="false"
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+209            android:enabled="true"
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+210            android:exported="true"
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+211            android:permission="android.permission.DUMP" >
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+212            <intent-filter>
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+213                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+214            </intent-filter>
+215            <intent-filter>
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+216                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+217            </intent-filter>
+218            <intent-filter>
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+219                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+219-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+220            </intent-filter>
+221            <intent-filter>
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+222                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+222-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ntfm81/.gradle/caches/8.11.1/transforms/dc401b57aa8ace9274b6fb092d9a20c1/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+223            </intent-filter>
+224        </receiver>
+225    </application>
+226
+227</manifest>

@@ -1,0 +1,46 @@
+{
+ "id": "file_manager",
+ "name": "File Manager",
+ "category": "Files",
+ "icon": "folder",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "list",
+   "source": "list",
+   "roots": "roots",
+   "item_action": "open",
+   "nav": true,
+   "title": "Files"
+  }
+ ],
+ "actions": {
+  "roots": [
+   {
+    "builtin": "files.roots"
+   }
+  ],
+  "list": [
+   {
+    "builtin": "files.list",
+    "args": {
+     "path": "{path}"
+    }
+   }
+  ],
+  "open": [
+   {
+    "builtin": "files.open",
+    "args": {
+     "path": "{path}"
+    }
+   }
+  ]
+ }
+}

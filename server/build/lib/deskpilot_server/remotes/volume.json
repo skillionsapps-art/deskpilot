@@ -1,0 +1,73 @@
+{
+ "id": "volume",
+ "name": "Volume",
+ "category": "Essentials",
+ "icon": "volume",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "slider",
+   "action": "set",
+   "min": 0,
+   "max": 100,
+   "text": "Master volume"
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "vol_down",
+     "text": "",
+     "action": "down",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "mute",
+     "text": "",
+     "action": "mute"
+    },
+    {
+     "type": "button",
+     "icon": "vol_up",
+     "text": "",
+     "action": "up",
+     "repeat": true
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "set": [
+   {
+    "builtin": "volume",
+    "args": {
+     "op": "set",
+     "value": "{value}"
+    }
+   }
+  ],
+  "up": [
+   {
+    "key": "volume_up"
+   }
+  ],
+  "down": [
+   {
+    "key": "volume_down"
+   }
+  ],
+  "mute": [
+   {
+    "key": "volume_mute"
+   }
+  ]
+ }
+}

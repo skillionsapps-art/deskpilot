@@ -1,0 +1,128 @@
+{
+ "id": "irfanview_er",
+ "name": "IrfanView'er",
+ "category": "Photos",
+ "icon": "photo",
+ "platforms": [
+  "win"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "prev",
+     "text": "Previous",
+     "action": "prev"
+    },
+    {
+     "type": "button",
+     "icon": "next",
+     "text": "Next",
+     "action": "next",
+     "style": "primary"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "zoom_out",
+     "text": "",
+     "action": "zoom_out",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "rotate",
+     "text": "Rotate",
+     "action": "rotate"
+    },
+    {
+     "type": "button",
+     "icon": "zoom_in",
+     "text": "",
+     "action": "zoom_in",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "play",
+     "text": "Slideshow",
+     "action": "slideshow"
+    },
+    {
+     "type": "button",
+     "icon": "delete",
+     "text": "Delete",
+     "action": "delete",
+     "style": "danger"
+    },
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Close",
+     "action": "close"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "prev": [
+   {
+    "key": "left"
+   }
+  ],
+  "next": [
+   {
+    "key": "right"
+   }
+  ],
+  "zoom_in": [
+   {
+    "keys": [
+     "primary",
+     "="
+    ]
+   }
+  ],
+  "zoom_out": [
+   {
+    "keys": [
+     "primary",
+     "-"
+    ]
+   }
+  ],
+  "rotate": [
+   {
+    "key": "r"
+   }
+  ],
+  "slideshow": [
+   {
+    "key": "w"
+   }
+  ],
+  "delete": [
+   {
+    "key": "delete"
+   }
+  ],
+  "close": [
+   {
+    "key": "esc"
+   }
+  ]
+ }
+}

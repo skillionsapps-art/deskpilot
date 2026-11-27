@@ -1,0 +1,36 @@
+{
+ "id": "launcher",
+ "name": "Launcher",
+ "category": "System",
+ "icon": "apps",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "",
+ "layout": [
+  {
+   "type": "list",
+   "source": "list",
+   "item_action": "run",
+   "title": "Apps (edit in config.json)"
+  }
+ ],
+ "actions": {
+  "list": [
+   {
+    "builtin": "launcher.list"
+   }
+  ],
+  "run": [
+   {
+    "builtin": "launcher.run",
+    "args": {
+     "id": "{id}"
+    }
+   }
+  ]
+ }
+}

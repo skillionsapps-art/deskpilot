@@ -1,0 +1,165 @@
+{
+ "id": "minecraft",
+ "name": "Minecraft",
+ "category": "Games",
+ "icon": "game",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Drop",
+     "action": "q"
+    },
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "W",
+     "action": "w",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Inventory",
+     "action": "e"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "left",
+     "text": "A",
+     "action": "a",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "S",
+     "action": "s",
+     "repeat": true
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "D",
+     "action": "d",
+     "repeat": true
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "up",
+     "text": "Jump",
+     "action": "jump"
+    },
+    {
+     "type": "button",
+     "icon": "down",
+     "text": "Sneak",
+     "action": "sneak"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "View",
+     "action": "f5"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Menu",
+     "action": "esc"
+    },
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Chat",
+     "action": "chat"
+    }
+   ]
+  },
+  {
+   "type": "touchpad"
+  }
+ ],
+ "actions": {
+  "w": [
+   {
+    "key": "w"
+   }
+  ],
+  "a": [
+   {
+    "key": "a"
+   }
+  ],
+  "s": [
+   {
+    "key": "s"
+   }
+  ],
+  "d": [
+   {
+    "key": "d"
+   }
+  ],
+  "q": [
+   {
+    "key": "q"
+   }
+  ],
+  "e": [
+   {
+    "key": "e"
+   }
+  ],
+  "jump": [
+   {
+    "key": "space"
+   }
+  ],
+  "sneak": [
+   {
+    "key": "shift"
+   }
+  ],
+  "f5": [
+   {
+    "key": "f5"
+   }
+  ],
+  "esc": [
+   {
+    "key": "esc"
+   }
+  ],
+  "chat": [
+   {
+    "key": "t"
+   }
+  ]
+ }
+}

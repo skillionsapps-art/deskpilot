@@ -1,0 +1,118 @@
+{
+ "id": "pyxel_edit_v",
+ "name": "Pyxel Edit-V",
+ "category": "Creative",
+ "icon": "palette",
+ "platforms": [
+  "win",
+  "mac"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Pen",
+     "action": "pen"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Eraser",
+     "action": "eraser"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Fill",
+     "action": "fill"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "",
+     "text": "Picker",
+     "action": "picker"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "back",
+     "text": "Undo",
+     "action": "undo"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "refresh",
+     "text": "Redo",
+     "action": "redo"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "pen": [
+   {
+    "key": "b"
+   }
+  ],
+  "eraser": [
+   {
+    "key": "e"
+   }
+  ],
+  "fill": [
+   {
+    "key": "f"
+   }
+  ],
+  "picker": [
+   {
+    "key": "i"
+   }
+  ],
+  "undo": [
+   {
+    "keys": [
+     "ctrl",
+     "z"
+    ]
+   }
+  ],
+  "redo": [
+   {
+    "keys": [
+     "ctrl",
+     "y"
+    ]
+   }
+  ]
+ }
+}

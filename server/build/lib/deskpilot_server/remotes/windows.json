@@ -1,0 +1,204 @@
+{
+ "id": "windows",
+ "name": "Windows",
+ "category": "System",
+ "icon": "windows",
+ "platforms": [
+  "win"
+ ],
+ "tier": "full",
+ "description": "",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "desktop",
+     "text": "Desktop",
+     "action": "desktop"
+    },
+    {
+     "type": "button",
+     "icon": "folder",
+     "text": "Explorer",
+     "action": "explorer"
+    },
+    {
+     "type": "button",
+     "icon": "settings",
+     "text": "Settings",
+     "action": "settings"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "tab",
+     "text": "Alt+Tab",
+     "action": "alttab"
+    },
+    {
+     "type": "button",
+     "icon": "apps",
+     "text": "Task view",
+     "action": "taskview"
+    },
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Close window",
+     "action": "close"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "left",
+     "text": "Snap left",
+     "action": "snapl"
+    },
+    {
+     "type": "button",
+     "icon": "fullscreen",
+     "text": "Maximise",
+     "action": "max"
+    },
+    {
+     "type": "button",
+     "icon": "right",
+     "text": "Snap right",
+     "action": "snapr"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "lock",
+     "text": "Lock",
+     "action": "lock"
+    },
+    {
+     "type": "button",
+     "icon": "tasks",
+     "text": "Task Mgr",
+     "action": "taskmgr"
+    },
+    {
+     "type": "button",
+     "icon": "search",
+     "text": "Search",
+     "action": "search"
+    }
+   ]
+  }
+ ],
+ "actions": {
+  "desktop": [
+   {
+    "keys": [
+     "win",
+     "d"
+    ]
+   }
+  ],
+  "explorer": [
+   {
+    "keys": [
+     "win",
+     "e"
+    ]
+   }
+  ],
+  "settings": [
+   {
+    "keys": [
+     "win",
+     "i"
+    ]
+   }
+  ],
+  "alttab": [
+   {
+    "keys": [
+     "alt",
+     "tab"
+    ]
+   }
+  ],
+  "taskview": [
+   {
+    "keys": [
+     "win",
+     "tab"
+    ]
+   }
+  ],
+  "close": [
+   {
+    "keys": [
+     "alt",
+     "f4"
+    ]
+   }
+  ],
+  "snapl": [
+   {
+    "keys": [
+     "win",
+     "left"
+    ]
+   }
+  ],
+  "snapr": [
+   {
+    "keys": [
+     "win",
+     "right"
+    ]
+   }
+  ],
+  "max": [
+   {
+    "keys": [
+     "win",
+     "up"
+    ]
+   }
+  ],
+  "lock": [
+   {
+    "keys": [
+     "win",
+     "l"
+    ]
+   }
+  ],
+  "taskmgr": [
+   {
+    "keys": [
+     "ctrl",
+     "shift",
+     "esc"
+    ]
+   }
+  ],
+  "search": [
+   {
+    "keys": [
+     "win",
+     "s"
+    ]
+   }
+  ]
+ }
+}

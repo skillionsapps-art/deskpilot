@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <ImageButton android:id="@+id/w_vol_down" style="@style/WidgetBtn" android:src="@drawable/ic_vol_down" android:contentDescription="Volume down" />
+    <ImageButton android:id="@+id/w_prev" style="@style/WidgetBtn" android:src="@drawable/ic_prev" android:contentDescription="Previous" />
+    <ImageButton android:id="@+id/w_play" style="@style/WidgetBtn" android:src="@drawable/ic_play_pause" android:contentDescription="Play pause" />
+    <ImageButton android:id="@+id/w_next" style="@style/WidgetBtn" android:src="@drawable/ic_next" android:contentDescription="Next" />
+    <ImageButton android:id="@+id/w_vol_up" style="@style/WidgetBtn" android:src="@drawable/ic_vol_up" android:contentDescription="Volume up" />
+</LinearLayout>

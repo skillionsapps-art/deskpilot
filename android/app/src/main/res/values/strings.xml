@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeskPilot</string>
+    <string name="tile_play_pause">PC Play/Pause</string>
+    <string name="widget_name">DeskPilot media</string>
+    <string name="floating_channel">Floating remote</string>
+    <string name="sc_play_pause">Play / Pause</string>
+    <string name="sc_mouse">Mouse</string>
+    <string name="sc_keyboard">Keyboard</string>
+    <string name="sc_media">Media</string>
+</resources>

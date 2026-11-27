@@ -1,0 +1,139 @@
+{
+ "id": "power",
+ "name": "Power",
+ "category": "Essentials",
+ "icon": "power",
+ "platforms": [
+  "win",
+  "mac",
+  "linux"
+ ],
+ "tier": "free",
+ "description": "Shutdown, restart, sleep, lock. Wake On LAN is sent from the phone.",
+ "layout": [
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "power",
+     "text": "Shut down",
+     "action": "shutdown",
+     "style": "danger"
+    },
+    {
+     "type": "button",
+     "icon": "restart",
+     "text": "Restart",
+     "action": "restart"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "sleep",
+     "text": "Sleep",
+     "action": "sleep"
+    },
+    {
+     "type": "button",
+     "icon": "hibernate",
+     "text": "Hibernate",
+     "action": "hibernate"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "lock",
+     "text": "Lock",
+     "action": "lock"
+    },
+    {
+     "type": "button",
+     "icon": "logout",
+     "text": "Log off",
+     "action": "logoff"
+    }
+   ]
+  },
+  {
+   "type": "row",
+   "items": [
+    {
+     "type": "button",
+     "icon": "close",
+     "text": "Abort shutdown",
+     "action": "abort"
+    }
+   ]
+  },
+  {
+   "type": "wol"
+  }
+ ],
+ "actions": {
+  "shutdown": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "shutdown"
+    }
+   }
+  ],
+  "restart": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "restart"
+    }
+   }
+  ],
+  "sleep": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "sleep"
+    }
+   }
+  ],
+  "hibernate": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "hibernate"
+    }
+   }
+  ],
+  "lock": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "lock"
+    }
+   }
+  ],
+  "logoff": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "logoff"
+    }
+   }
+  ],
+  "abort": [
+   {
+    "builtin": "power",
+    "args": {
+     "op": "abort"
+    }
+   }
+  ]
+ }
+}
