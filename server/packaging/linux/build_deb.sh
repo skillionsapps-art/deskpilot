@@ -43,7 +43,7 @@ EOF
 chmod 755 "$PKG/DEBIAN/postinst"
 
 mkdir -p dist/release
-dpkg-deb --root-owner-group --build "$PKG" "dist/release/deskpilot-server-linux-$LABEL.deb"
+dpkg-deb --build "$PKG" "dist/release/deskpilot-server-linux-$LABEL.deb"
 
 # portable tarball
 TAR_DIR="build/tar/DeskPilotServer-Linux-$LABEL"
