@@ -14,7 +14,7 @@ cp "$HERE/deskpilot-server.desktop" "$PKG/usr/share/applications/"
 cp build/icons/deskpilot-256.png "$PKG/usr/share/icons/hicolor/256x256/apps/deskpilot-server.png"
 cp "$HERE/deskpilot-server.service" "$PKG/usr/lib/systemd/user/"
 SIZE=$(du -sk "$PKG" | cut -f1)
-GLIBC=$(ldd --version | head -1 | grep -oE "[0-9]+\.[0-9]+$")   # binaries need the build machine's glibc or newer
+GLIBC=$(ldd --version 2>&1 | head -1 | grep -oE "[0-9]+\.[0-9]+$" || echo "2.17")   # fallback to 2.17
 
 cat > "$PKG/DEBIAN/control" <<EOF
 Package: deskpilot-server
