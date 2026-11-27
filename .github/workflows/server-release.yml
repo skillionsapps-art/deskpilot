@@ -13,11 +13,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { os: windows-latest,   name: Windows x64 }
-          - { os: macos-14,         name: macOS Apple Silicon }
-          - { os: macos-15-intel,   name: macOS Intel }            # remove if your plan lacks Intel Mac runners
-          - { os: ubuntu-22.04,     name: Linux x64 }              # 22.04 = older glibc, runs on more distros
-          - { os: ubuntu-22.04-arm, name: Linux arm64 (Raspberry Pi) }
+          - { os: windows-latest, name: Windows x64,              artifact: windows-x64 }
+          - { os: macos-14,       name: macOS Apple Silicon,       artifact: macos-arm64 }
+          - { os: macos-13,       name: macOS Intel,               artifact: macos-x64   }
+          - { os: ubuntu-22.04,   name: Linux x64,                 artifact: linux-x64   }
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
     defaults:
@@ -46,7 +45,7 @@ jobs:
         run: python packaging/build.py
       - uses: actions/upload-artifact@v4
         with:
-          name: deskpilot-server-${{ matrix.os }}
+          name: deskpilot-server-${{ matrix.artifact }}
           path: server/dist/release/*
           if-no-files-found: error
 
@@ -72,4 +71,3 @@ jobs:
             - Mac with Apple chip (M1–M4): `DeskPilotServer-macOS-AppleSilicon.dmg`
             - Mac with Intel chip: `DeskPilotServer-macOS-Intel.dmg`
             - Ubuntu / Debian / Mint: `deskpilot-server-linux-x64.deb`
-            - Raspberry Pi (64-bit OS): `deskpilot-server-linux-arm64.deb`
